@@ -1,9 +1,15 @@
-function App() {
-  return (
-    <div className="">
+import Hero from "./components/Hero";
+import Navbar from "./components/Navbar";
+import Products from "./components/Products";
 
-    </div>
-  )
+function App() {
+	return (
+		<div className='mb-40'>
+			<Navbar/>
+			<Hero/>
+			<Products/>
+		</div>
+	);
 }
 
-export default App
+export default App;
