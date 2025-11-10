@@ -5,6 +5,7 @@ export interface IProducts{
     title: string;
     description: string;
     price: number;
+    rating:number,
     createdAt?: Date;
 }
 
@@ -21,6 +22,10 @@ const productSchema = new Schema<IProducts> ({
         required:true,
     },
     price:{
+        type:Number,
+        required:true
+    },
+    rating:{
         type:Number,
         required:true
     },

@@ -3,12 +3,13 @@ import { IProducts, Product } from "../models/productsSchema.ts";
 
 export async function createProducts (req:Request,res: Response){
     try {
-         const {title, description, image,price } = req.body
+         const {title, description, image,price,rating } = req.body
          const newProduct:IProducts ={
             image,
             title,
             description,
             price,
+            rating,
          }
 
          const products = await Product.create(newProduct)
