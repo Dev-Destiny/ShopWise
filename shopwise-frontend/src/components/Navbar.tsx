@@ -118,7 +118,6 @@ function Navbar() {
 					</div>
 				</div>
 			</div>
-			<div className="fixed h-screen w-full bg-gray-600 z-90 top-0"></div>
 		</div>
 	);
 }
