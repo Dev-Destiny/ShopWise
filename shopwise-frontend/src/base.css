@@ -1,20 +1,20 @@
 
 :root {
-    --primary: #ffffff;
+    --bg: #ffffff;
     --secondary: #000;
-    --header-font: "Poppins";
-    --body-font: "Lexend";
+    --header-font: "Poppins", Arial, Helvetica, sans-serif;
+    --body-font: "Lexend", Arial, Helvetica, sans-serif;
     --main-text: #0d0d0d;
     --secondary-text: #3f3f3f;
-    --muted-text: #2c2c2c;
+    --muted-text: #848484;
     --surface: #f0f0f0;
-    --accent-one: #f6e7df;
+    --accent-one: #b4ea69;
     --accent-two: #005321;
     --shadow-soft: 0 20px 20px rgba(209, 209, 209, 0.2);
 }
 
 @theme inline {
-    --color-primary: var(--primary); 
+    --color-bg: var(--bg); 
     --color-secondary: var(--secondary); 
     --color-accent-one: var(--accent-one);
     --color-accent-two: var(--accent-two);
@@ -25,8 +25,6 @@
     --color-secondary-text: var(--secondary-text);
     --color-muted-text: var(--muted-text);
     
-    /*Radius*/
-    --radius-lg: 24px;
 
     /*Fonts*/
     --font-header: var(--header-font);

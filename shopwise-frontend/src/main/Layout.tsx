@@ -1,13 +1,11 @@
-import Hero from "./components/Hero";
+import { Outlet } from "react-router";
 import Navbar from "./components/Navbar";
-import Products from "./components/Products";
 
 function App() {
 	return (
 		<div className='mb-40'>
 			<Navbar/>
-			<Hero/>
-			<Products/>
+			<Outlet/>
 		</div>
 	);
 }

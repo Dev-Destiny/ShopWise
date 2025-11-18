@@ -8,6 +8,6 @@ import AuthModal from './auth/AuthModal.tsx'
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
     <RouterProvider router={router}/>
-    <AuthModal/>
+    <AuthModal />
   </StrictMode>,
 )

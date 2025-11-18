@@ -1,6 +1,7 @@
 import { ChevronDown, LucideSlidersHorizontal } from "lucide-react";
-import ProductCard from "./ProductCard";
-import { products } from "../store";
+import ProductCard from "../../components/ProductCard";
+import { products } from "../../store";
+import { Link } from "react-router";
 
 const filters = ["Price", "Review", "Color", "Offer"];
 
@@ -12,10 +13,13 @@ function ProductSection() {
 					{filters.map((label, index) => (
 						<li
 							key={index}
-							className='rounded-lg bg-surface py-2 px-4 text-sm flex items-center gap-1 cursor-pointer'
+							className='rounded-lg bg-surface py-2 px-4 text-sm flex items-center gap-1 cursor-pointer group '
 						>
 							<span>{label}</span>
-							<ChevronDown size={20} />
+							<ChevronDown
+								size={20}
+								className='group-hover:rotate-180 transition-all duration-300'
+							/>
 						</li>
 					))}
 					<li className='rounded-lg bg-surface py-2 px-4 text-sm flex items-center gap-1  cursor-pointer'>
@@ -33,15 +37,18 @@ function ProductSection() {
 			<div>
 				<h1 className='header'>Hottest Products For You!</h1>
 
-				<div className='w-full grid grid-cols-4 gap-5'>
+				<div className='w-full grid grid-cols-2 lg:grid-cols-4 gap-5'>
 					{products.map((product) => (
-						<ProductCard 
-                            name={product.name}
-                            description={product.description}
-                            price={product.price}
-                            ratings={product.ratings}
-                            starCount={product.stars}
-                        />
+						<Link to={`/products/${product.id}`}>
+							<ProductCard
+								key={product.id}
+								name={product.name}
+								description={product.description}
+								price={product.price}
+								ratings={product.ratings}
+								starCount={product.stars}
+							/>
+						</Link>
 					))}
 				</div>
 			</div>
