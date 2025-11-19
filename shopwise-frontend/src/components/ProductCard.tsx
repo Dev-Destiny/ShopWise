@@ -5,11 +5,11 @@ interface Props {
 	name: string;
 	price: number;
 	description: string;
-	starCount: number;
+	starCount?: number;
 	ratings: number;
 }
 
-function ProductCard({ name, price, description, starCount, ratings }: Props) {
+function ProductCard({ name, price, description, starCount = 4, ratings }: Props) {
 	const stars = [];
 	for (let index = 0; index < starCount; index++) {
 		stars.push(<Star size={10} fill='green' />);

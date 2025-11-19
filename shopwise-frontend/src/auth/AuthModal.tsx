@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { useAuthStore } from "../store/useAuthStore";
+import { useAuthStore } from "./store/useAuthStore";
 import { Input } from "@/components/ui/input";
 import { Label } from "@radix-ui/react-label";
 import Button from "@/components/Button";

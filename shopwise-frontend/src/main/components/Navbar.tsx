@@ -8,7 +8,7 @@ import {
 } from "lucide-react";
 import { useState } from "react";
 import { motion, stagger, AnimatePresence } from "motion/react";
-import { useAuthStore } from "../../store/useAuthStore";
+import { useAuthStore } from "../../auth/store/useAuthStore";
 import Button from "../../components/Button";
 import { useScreenType } from "@/hooks/useScreenSize";
 

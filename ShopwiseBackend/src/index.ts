@@ -14,7 +14,7 @@ app.use(cors())
 app.get("/", (req,res) =>{
     res.send("Hello")
 })
-const port = process.env.PORT || "";
+const port = process.env.PORT || 8000;
 app.use("/api/products", productRoute)
 
 try {
@@ -23,5 +23,5 @@ try {
     console.log(`Server is running in port http://localhost:${port}`)
 })
 } catch (error) {
-    console.log("Error")
+    console.log(error)
 }

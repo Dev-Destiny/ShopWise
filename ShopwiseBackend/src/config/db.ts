@@ -8,7 +8,7 @@ export async function connectDB (){
         await mongoose.connect(URL)
         console.log("MongoDb connected")
     } catch (error) {
-        console.log("MongoDb connection Failed")
+        console.log(error)
     }
 }
 

@@ -1,11 +1,15 @@
 import { ChevronDown, LucideSlidersHorizontal } from "lucide-react";
 import ProductCard from "../../components/ProductCard";
-import { products } from "../../store";
 import { Link } from "react-router";
+// import { products } from "@/store";
+import useLoadProducts from "../hooks/loadProducts";
+import { useProductStore } from "../store/useProductStore";
 
 const filters = ["Price", "Review", "Color", "Offer"];
 
 function ProductSection() {
+	useLoadProducts()
+	const products = useProductStore((state) => state.products)
 	return (
 		<div className='container'>
 			<div className='flex justify-between items-center mb-10'>
@@ -39,14 +43,13 @@ function ProductSection() {
 
 				<div className='w-full grid grid-cols-2 lg:grid-cols-4 gap-5'>
 					{products.map((product) => (
-						<Link to={`/products/${product.id}`}>
+						<Link to={`/products/${product.id}`} key={product.id}>
 							<ProductCard
-								key={product.id}
-								name={product.name}
+								name={product.title}
 								description={product.description}
 								price={product.price}
-								ratings={product.ratings}
-								starCount={product.stars}
+								ratings={product.rating}
+								// starCount={product.stars}
 							/>
 						</Link>
 					))}
