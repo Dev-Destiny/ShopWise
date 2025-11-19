@@ -4,152 +4,168 @@
     "description": "Noise-cancelling wireless headphones with 30-hour battery life.",
     "image": "https://m.media-amazon.com/images/I/61+Q6Rh3OQL._AC_SL1500_.jpg",
     "price": "349.99",
-    "rating": 4.9
+    "rating": 500,
+    "star":4.5
   },
   {
     "title": "JBL Flip 6",
     "description": "Portable Bluetooth speaker with deep bass and waterproof design.",
     "image": "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/04/901699/1.jpg?4187",
     "price": "129.95",
-    "rating": 4.7
+    "rating": 420,
+    "star":4
   },
   {
     "title": "Apple Watch Series 9",
     "description": "Advanced smartwatch with fitness tracking and Always-On display.",
     "image": "https://m.media-amazon.com/images/I/71xkMA0wHML._AC_SL1500_.jpg",
     "price": "399.00",
-    "rating": 4.8
+    "rating": 430,
+    "star":3.3
   },
   {
     "title": "Samsung Galaxy Buds2 Pro",
     "description": "True wireless earbuds with ANC and 360 Audio.",
     "image": "https://i5.walmartimages.com/seo/Samsung-Galaxy-Buds-2-PRO-True-Wireless-Earbud-Headphones-SM-R510-Graphite_112264e4-6835-4fb5-98eb-32b30514d8f0.7157ce786ef37acd46a7fd6039758506.jpeg?odnHeight=768&odnWidth=768&odnBg=FFFFFF",
     "price": "229.99",
-    "rating": 4.5
+    "rating": 425,
+    "star":3.2
   },
   {
     "title": "Bose QuietComfort Ultra",
     "description": "Immersive noise-cancelling headphones for premium sound.",
     "image": "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/86/2914104/1.jpg?5747",
     "price": "379.00",
-    "rating": 4.9
+    "rating": 129,
+    "star":4.6
   },
   {
     "title": "Anker Soundcore Motion+",
     "description": "Hi-Res Bluetooth speaker with 30W audio output.",
     "image": "https://ae01.alicdn.com/kf/S7610b0c9bf844e24a70e7a400b3d1128y.jpeg",
     "price": "99.99",
-    "rating": 4.6
+    "rating": 230,
+    "star":3.1
   },
   {
     "title": "Logitech MX Master 3S",
     "description": "Ergonomic wireless mouse with silent clicks and fast scrolling.",
     "image": "https://m.media-amazon.com/images/I/61ni3t1ryQL._AC_SL1500_.jpg",
     "price": "99.00",
-    "rating": 4.8
+    "rating": 350,
+    "star":5
   },
   {
     "title": "Razer BlackWidow V4 Pro",
     "description": "Mechanical gaming keyboard with RGB and media controls.",
     "image": "https://files.pccasegear.com/images/RZ03-05130100-thumb.jpg",
     "price": "229.99",
-    "rating": 4.7
+    "rating": 437
+    "star":3.6
   },
   {
     "title": "Apple Magic Keyboard",
     "description": "Wireless rechargeable keyboard with sleek aluminum design.",
     "image": "https://caspergadgets.com/wp-content/uploads/2024/11/A.png",
     "price": "99.00",
-    "rating": 4.5
+    "rating": 423,
+    "star": 4
   },
   {
     "title": "Sony SRS-XE300",
     "description": "Portable Bluetooth speaker with powerful stereo sound.",
     "image": "https://www.sony.ie/image/72c0097f014514630e5e3bda8b388f71?fmt=png-alpha&wid=756",
     "price": "149.99",
-    "rating": 4.6
+    "rating": 431,
+    "star":3.7
   },
   {
     "title": "Google Pixel Buds Pro",
     "description": "Smart noise-cancelling earbuds with adaptive sound.",
     "image": "https://www.mcsteve.com/wp-content/uploads/2023/01/pixel-buds-pro-1.jpeg",
     "price": "199.00",
-    "rating": 4.4
+    "rating": 494,
+    "star":3.2
   },
   {
     "title": "HyperX Cloud III",
     "description": "Gaming headset with memory foam ear cups and 53mm drivers.",
     "image": "https://hyperx.com/cdn/shop/files/hyperx_cloud_iii_black_66x0048_main_1_cf79eb44-3db5-44b6-9376-c799ab7a2908.jpg?v=1763069616",
     "price": "99.99",
-    "rating": 4.7
+    "rating": 300,
+    "star":3.2
   },
   {
     "title": "Sony LinkBuds S",
     "description": "Lightweight wireless earbuds with ambient sound control.",
     "image": "https://www.redsharknews.com/hubfs/Sony_LinkBuds_S_review.jpg",
     "price": "179.99",
-    "rating": 4.3
+    "rating": 439,
+    "star":4.2
   },
   {
     "title": "JBL Charge 5",
     "description": "Waterproof Bluetooth speaker with 20 hours of playtime.",
     "image": "https://www.amaget.com/wp-content/uploads/2022/05/JBL-CHARGE-5-Portable-Bluetooth-Speaker.jpg",
     "price": "139.95",
-    "rating": 4.8
+    "rating": 423,
+    "star":3.5
   },
   {
     "title": "Apple HomePod Mini",
     "description": "Smart speaker with 360° audio and Siri integration.",
     "image": "https://m.media-amazon.com/images/I/71NWqf5E+EL._AC_SL1500_.jpg",
     "price": "99.00",
-    "rating": 4.9
+    "rating": 294,
+    "star":4.9
   },
   {
     "title": "Amazon Echo Dot (5th Gen)",
     "description": "Smart speaker with Alexa and improved bass.",
     "image": "https://www.justfones.ng/pub/media/catalog/product/cache/5648c3762d02de8e3317bdf7a5051262/e/c/echodot5thgen1.jpeg",
     "price": "49.99",
-    "rating": 4.6
+    "rating": 499,
+    "star":3.7
   },
   {
     "title": "Sony WF-1000XM5",
     "description": "Industry-leading noise cancelling true wireless earbuds.",
     "image": "https://m.media-amazon.com/images/I/713IRzfhsEL._AC_SL1500_.jpg",
     "price": "299.99",
-    "rating": 4.9
+    "rating": 400,
+    "star":3.5
   },
   {
     "title": "Anker PowerCore 10000",
     "description": "Portable charger with high-speed charging for mobile devices.",
     "image": "https://applepremiumstore.com.ng/wp-content/uploads/2022/07/71lbfrt5CVS._AC_SL1500_.jpg",
     "price": "29.99",
-    "rating": 4.8
+    "rating": 500,
+    "star":3.6
   },
   {
     "title": "Logitech Z407 Speakers",
     "description": "Bluetooth computer speakers with subwoofer and strong bass.",
     "image": "https://m.media-amazon.com/images/I/51s54H-J94L.jpg",
     "price": "119.99",
-    "rating": 4.7
+    "rating": 4.7,
+    "star":3.8
   },
   {
-  "createdAt": { "createdAt": "2025-11-15T13:46:00.000Z" },
-  "_id": "69173b2f6909527b034cfbc3",
   "image": "https://m.media-amazon.com/images/I/717q1UPTVQL.jpg",
   "title": "UE Boom 3",
   "description": "Portable waterproof Bluetooth speaker with 360° sound and 15-hour battery.",
   "price": 129.95,
-  "rating": 4.6,
-  "__v": 0
+  "rating": 350,
+  "star":5
+
 },
 {
-  "createdAt": { "createdAt": "2025-11-15T13:45:00.000Z" },
-  "_id": "69173b1a6909527b034cfbc1",
   "image": "https://i5.walmartimages.com/seo/Sennheiser-Momentum-4-Wireless-Headphones-Bluetooth-Headset-Crystal-Clear-Calls-Adaptive-Noise-Cancellation-60h-Battery-Life-Customizable-Sound-White_2677aa35-fd72-43dc-a9f7-d96348d00063.c1673022dc7953c0344644166ea98584.jpeg",
   "title": "Sennheiser Momentum 4",
   "description": "Premium over-ear headphones with adaptive noise cancellation and long battery life.",
   "price": 299.99,
-  "rating": 4.8,
-  "__v": 0
+  "rating": 430,
+  "star":4.3
 }
 ]
